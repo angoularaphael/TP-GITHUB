@@ -35,3 +35,5 @@ Afficher l'historique en graphe quand c'est pertinent.
 1. <hash> :
 2. <hash> :
 3. <hash> :
+
+##coauthored by king_e
