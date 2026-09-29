@@ -93,3 +93,5 @@ Ruleset `protection-main` actif sur `main`. Un push direct est refuse (GH013).
 1. `c3e1920` : retire `config/secrets.env` du suivi Git et l'ajoute au `.gitignore`, sans laisser le mot de passe dans les commits suivants.
 2. `7391784` : fusionne `feature/titre` et `feature/couleurs` en resolvant les marqueurs de conflit dans `site/index.html`.
 3. `40fb500` : teste un push direct sur `main` ; la ruleset `protection-main` refuse le push et impose une Pull Request.
+11. Commit distant récupéré et conflit résolu
+(capture)
