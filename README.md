@@ -30,8 +30,3 @@ Afficher l'historique en graphe quand c'est pertinent.
 ## Cible mobile
 11. Commit distant récupéré et conflit résolu
 (capture)
-
-## Trois commits annotés
-1. <hash> :
-2. <hash> :
-3. <hash> :
