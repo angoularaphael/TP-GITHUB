@@ -1,8 +1,5 @@
 # Rendu de ANGOULA RAPHAEL
 
-Une capture par etape, dans l'ordre. Terminal entier non rogne, invite visible.
-Afficher l'historique en graphe quand c'est pertinent.
-
 ## Niveau 1
 1. Configuration Git
 
