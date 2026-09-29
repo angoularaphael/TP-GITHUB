@@ -35,6 +35,29 @@ body {
   margin-bottom: 20px;
 }
 
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  min-width: 44px;
+  margin-bottom: 24px;
+  padding: 10px 18px;
+  border: 2px solid #4e5ea3;
+  border-radius: 50px;
+  background: transparent;
+  color: #4e5ea3;
+  font: inherit;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.theme-toggle:focus-visible {
+  outline: 3px solid #4e5ea3;
+  outline-offset: 3px;
+}
+
 /* Titre */
 
 h1 {
@@ -143,6 +166,46 @@ footer {
   font-size: 14px;
 }
 
+/* Mode sombre */
+
+html.theme-dark body {
+  background: #0f172a;
+  color: #e2e8f0;
+}
+
+html.theme-dark h1,
+html.theme-dark .theme-toggle {
+  color: #c7d2fe;
+}
+
+html.theme-dark .theme-toggle {
+  border-color: #c7d2fe;
+}
+
+html.theme-dark .theme-toggle:focus-visible {
+  outline-color: #c7d2fe;
+}
+
+html.theme-dark .intro,
+html.theme-dark .card p,
+html.theme-dark .features small,
+html.theme-dark footer {
+  color: #94a3b8;
+}
+
+html.theme-dark .card {
+  background: #1e293b;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
+}
+
+html.theme-dark .card h2 {
+  color: #e2e8f0;
+}
+
+html.theme-dark .features div {
+  background: #0f172a;
+}
+
 /* Responsive */
 
 @media (max-width: 650px) {
@@ -157,5 +220,15 @@ footer {
   .promo {
     flex-direction: column;
     border-radius: 20px;
+  }
+
+  .theme-toggle {
+    width: 100%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .features div {
+    transition: none;
   }
 }
